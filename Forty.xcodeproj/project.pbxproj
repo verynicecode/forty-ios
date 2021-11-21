@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC4F8302274AE9D20007C84F /* FortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F8301274AE9D20007C84F /* FortyApp.swift */; };
+		FC4F8304274AE9D20007C84F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F8303274AE9D20007C84F /* ContentView.swift */; };
+		FC4F8306274AE9D40007C84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4F8305274AE9D40007C84F /* Assets.xcassets */; };
+		FC4F8309274AE9D40007C84F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4F8308274AE9D40007C84F /* Preview Assets.xcassets */; };
+		FC4F8313274AE9D40007C84F /* FortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F8312274AE9D40007C84F /* FortyTests.swift */; };
+		FC4F831D274AE9D40007C84F /* FortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F831C274AE9D40007C84F /* FortyUITests.swift */; };
+		FC4F831F274AE9D40007C84F /* FortyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F831E274AE9D40007C84F /* FortyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4F830F274AE9D40007C84F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4F82F6274AE9D20007C84F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4F82FD274AE9D20007C84F;
+			remoteInfo = Forty;
+		};
+		FC4F8319274AE9D40007C84F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4F82F6274AE9D20007C84F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4F82FD274AE9D20007C84F;
+			remoteInfo = Forty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC4F82FE274AE9D20007C84F /* Forty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4F8301274AE9D20007C84F /* FortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyApp.swift; sourceTree = "<group>"; };
+		FC4F8303274AE9D20007C84F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC4F8305274AE9D40007C84F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4F8308274AE9D40007C84F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC4F830E274AE9D40007C84F /* FortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4F8312274AE9D40007C84F /* FortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyTests.swift; sourceTree = "<group>"; };
+		FC4F8318274AE9D40007C84F /* FortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4F831C274AE9D40007C84F /* FortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyUITests.swift; sourceTree = "<group>"; };
+		FC4F831E274AE9D40007C84F /* FortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4F82FB274AE9D20007C84F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4F830B274AE9D40007C84F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4F8315274AE9D40007C84F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4F82F5274AE9D20007C84F = {
+			isa = PBXGroup;
+			children = (
+				FC4F8300274AE9D20007C84F /* Forty */,
+				FC4F8311274AE9D40007C84F /* FortyTests */,
+				FC4F831B274AE9D40007C84F /* FortyUITests */,
+				FC4F82FF274AE9D20007C84F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4F82FF274AE9D20007C84F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F82FE274AE9D20007C84F /* Forty.app */,
+				FC4F830E274AE9D40007C84F /* FortyTests.xctest */,
+				FC4F8318274AE9D40007C84F /* FortyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4F8300274AE9D20007C84F /* Forty */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F8301274AE9D20007C84F /* FortyApp.swift */,
+				FC4F8303274AE9D20007C84F /* ContentView.swift */,
+				FC4F8305274AE9D40007C84F /* Assets.xcassets */,
+				FC4F8307274AE9D40007C84F /* Preview Content */,
+			);
+			path = Forty;
+			sourceTree = "<group>";
+		};
+		FC4F8307274AE9D40007C84F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F8308274AE9D40007C84F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC4F8311274AE9D40007C84F /* FortyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F8312274AE9D40007C84F /* FortyTests.swift */,
+			);
+			path = FortyTests;
+			sourceTree = "<group>";
+		};
+		FC4F831B274AE9D40007C84F /* FortyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F831C274AE9D40007C84F /* FortyUITests.swift */,
+				FC4F831E274AE9D40007C84F /* FortyUITestsLaunchTests.swift */,
+			);
+			path = FortyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4F82FD274AE9D20007C84F /* Forty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4F8322274AE9D40007C84F /* Build configuration list for PBXNativeTarget "Forty" */;
+			buildPhases = (
+				FC4F82FA274AE9D20007C84F /* Sources */,
+				FC4F82FB274AE9D20007C84F /* Frameworks */,
+				FC4F82FC274AE9D20007C84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Forty;
+			productName = Forty;
+			productReference = FC4F82FE274AE9D20007C84F /* Forty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC4F830D274AE9D40007C84F /* FortyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4F8325274AE9D40007C84F /* Build configuration list for PBXNativeTarget "FortyTests" */;
+			buildPhases = (
+				FC4F830A274AE9D40007C84F /* Sources */,
+				FC4F830B274AE9D40007C84F /* Frameworks */,
+				FC4F830C274AE9D40007C84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4F8310274AE9D40007C84F /* PBXTargetDependency */,
+			);
+			name = FortyTests;
+			productName = FortyTests;
+			productReference = FC4F830E274AE9D40007C84F /* FortyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC4F8317274AE9D40007C84F /* FortyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4F8328274AE9D40007C84F /* Build configuration list for PBXNativeTarget "FortyUITests" */;
+			buildPhases = (
+				FC4F8314274AE9D40007C84F /* Sources */,
+				FC4F8315274AE9D40007C84F /* Frameworks */,
+				FC4F8316274AE9D40007C84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4F831A274AE9D40007C84F /* PBXTargetDependency */,
+			);
+			name = FortyUITests;
+			productName = FortyUITests;
+			productReference = FC4F8318274AE9D40007C84F /* FortyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4F82F6274AE9D20007C84F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FC4F82FD274AE9D20007C84F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FC4F830D274AE9D40007C84F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FC4F82FD274AE9D20007C84F;
+					};
+					FC4F8317274AE9D40007C84F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FC4F82FD274AE9D20007C84F;
+					};
+				};
+			};
+			buildConfigurationList = FC4F82F9274AE9D20007C84F /* Build configuration list for PBXProject "Forty" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4F82F5274AE9D20007C84F;
+			productRefGroup = FC4F82FF274AE9D20007C84F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4F82FD274AE9D20007C84F /* Forty */,
+				FC4F830D274AE9D40007C84F /* FortyTests */,
+				FC4F8317274AE9D40007C84F /* FortyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4F82FC274AE9D20007C84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4F8309274AE9D40007C84F /* Preview Assets.xcassets in Resources */,
+				FC4F8306274AE9D40007C84F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4F830C274AE9D40007C84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4F8316274AE9D40007C84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4F82FA274AE9D20007C84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4F8304274AE9D20007C84F /* ContentView.swift in Sources */,
+				FC4F8302274AE9D20007C84F /* FortyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4F830A274AE9D40007C84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4F8313274AE9D40007C84F /* FortyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4F8314274AE9D40007C84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4F831D274AE9D40007C84F /* FortyUITests.swift in Sources */,
+				FC4F831F274AE9D40007C84F /* FortyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4F8310274AE9D40007C84F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4F82FD274AE9D20007C84F /* Forty */;
+			targetProxy = FC4F830F274AE9D40007C84F /* PBXContainerItemProxy */;
+		};
+		FC4F831A274AE9D40007C84F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4F82FD274AE9D20007C84F /* Forty */;
+			targetProxy = FC4F8319274AE9D40007C84F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC4F8320274AE9D40007C84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC4F8321274AE9D40007C84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC4F8323274AE9D40007C84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Forty/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F5YW995L7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verynicecode.Forty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC4F8324274AE9D40007C84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Forty/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F5YW995L7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verynicecode.Forty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC4F8326274AE9D40007C84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5YW995L7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verynicecode.FortyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forty.app/Forty";
+			};
+			name = Debug;
+		};
+		FC4F8327274AE9D40007C84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5YW995L7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verynicecode.FortyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forty.app/Forty";
+			};
+			name = Release;
+		};
+		FC4F8329274AE9D40007C84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5YW995L7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verynicecode.FortyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Forty;
+			};
+			name = Debug;
+		};
+		FC4F832A274AE9D40007C84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F5YW995L7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verynicecode.FortyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Forty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4F82F9274AE9D20007C84F /* Build configuration list for PBXProject "Forty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4F8320274AE9D40007C84F /* Debug */,
+				FC4F8321274AE9D40007C84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4F8322274AE9D40007C84F /* Build configuration list for PBXNativeTarget "Forty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4F8323274AE9D40007C84F /* Debug */,
+				FC4F8324274AE9D40007C84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4F8325274AE9D40007C84F /* Build configuration list for PBXNativeTarget "FortyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4F8326274AE9D40007C84F /* Debug */,
+				FC4F8327274AE9D40007C84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4F8328274AE9D40007C84F /* Build configuration list for PBXNativeTarget "FortyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4F8329274AE9D40007C84F /* Debug */,
+				FC4F832A274AE9D40007C84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4F82F6274AE9D20007C84F /* Project object */;
+}
